@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:background="@drawable/appwidget_bg"
+    >
+
+<TextView android:text="Deepak is in Bangalore"
+		  android:id="@+id/Text01"
+		  android:gravity="center"
+		  android:visibility="visible"
+		  android:clickable="true"
+		  android:selectAllOnFocus="true"
+		  android:ellipsize="marquee"
+		  android:textSize="20dip"
+		  android:singleLine="true"
+		  android:layout_width="wrap_content" 
+		  android:layout_height="fill_parent"
+		  android:enabled="true"
+		  android:focusableInTouchMode="true"
+		  android:marqueeRepeatLimit="marquee_forever"
+		  android:textColor="@color/Blue" android:focusable="true">
+</TextView>
+
+<TextView android:text=" "
+		  android:id="@+id/Text03"
+		  android:layout_width="wrap_content" 
+		  android:layout_height="fill_parent">
+</TextView>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:orientation="horizontal"
+	android:paddingLeft="100dip"
+    android:layout_height="wrap_content">
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:nextFocusRight="@id/linear"
+    >
+<Button 
+		android:id="@+id/Button01" 
+		android:background="@drawable/findlarge"
+		android:gravity="center"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+</Button>
+</RelativeLayout>
+<TextView android:text="     "
+		  android:id="@+id/Text02"
+		  android:layout_width="wrap_content" 
+		  android:layout_height="fill_parent">
+</TextView>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:nextFocusRight="@id/linear"
+    >
+<Button 
+		android:id="@+id/Button02"
+		android:gravity="center"
+		android:background="@drawable/rss"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+</Button>
+</RelativeLayout>
+</LinearLayout>
+</LinearLayout>

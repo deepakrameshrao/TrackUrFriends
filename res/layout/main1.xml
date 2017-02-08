@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linear_layout"
+    android:background="@drawable/gps"
+    >
+
+<!--  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="180dip"
+    android:layout_height="180dip"
+    >
+
+<Button android:text="Updating location....." 
+        android:id="@+id/Button01" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+</Button>
+
+<ProgressBar android:id="@+id/ProgressBar01" 
+             android:layout_width="wrap_content" 
+             android:layout_height="wrap_content">
+</ProgressBar>
+
+</LinearLayout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+  <Button android:text="Share your location....??" 
+        android:id="@+id/Button02"
+        android:background="@drawable/shareloc"
+        android:layout_width="100dip" 
+        android:layout_height="fill_parent">
+</Button>
+
+<Button  
+        android:id="@+id/Button03"
+        android:gravity="center"
+        android:paddingTop="80dip"
+        android:background="@drawable/cmcc_mainmenu_search" 
+        android:layout_width="100dip" 
+        android:layout_height="wrap_content">
+</Button>
+</LinearLayout>
+-->
+
+
+
+
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+   	android:background="@drawable/widgetbasicsample3"
+    android:paddingTop="50dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView 
+		  android:id="@+id/TextView01"
+		  android:text="1."
+		  android:textColor="#ffff0000"
+		  android:textSize="20dip"
+		  android:background="@drawable/toast_frame" 
+		  android:layout_width="280dip"
+		  android:layout_marginLeft="20dip"
+		  android:layout_height="wrap_content">
+</TextView>
+
+<TextView  
+		  android:id="@+id/TextView02"
+		  android:text="2."
+		  android:textColor="#ffff0000"
+		  android:textSize="20dip"
+		  android:background="@drawable/toast_frame" 
+		  android:layout_width="280dip"
+		  android:layout_marginLeft="20dip"
+		  android:layout_height="wrap_content">
+</TextView>
+<TextView  
+		  android:id="@+id/TextView03"
+		  android:text="3."
+		  android:textColor="#ffff0000"
+		  android:textSize="20dip"
+		  android:background="@drawable/toast_frame"
+		  android:layout_marginLeft="20dip" 
+		  android:layout_width="280dip" 
+		  android:layout_height="wrap_content">
+</TextView>
+
+
+
+
+
+</LinearLayout>
+</LinearLayout>
